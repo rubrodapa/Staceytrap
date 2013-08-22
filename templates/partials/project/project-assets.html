@@ -1,0 +1,33 @@
+<div id="project-assets">
+  if @video do
+    <div class="flex-video widescreen" style="text-align:center;">
+      @video        
+    </div>
+  endif
+  if $images do
+    <div id="carousel-example-generic" class="carousel slide">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        foreach $images[:1] do
+          <div class="item active">
+            <img src="@url" alt="@name">
+          </div>
+        endforeach
+        foreach $images[1:] do
+          <div class="item">
+            <img src="@url" alt="@name">
+          </div>
+        endforeach
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div>
+  endif
+</div>

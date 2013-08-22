@@ -1,0 +1,7 @@
+page_description: A collection of Ñame's graphic design work
+-
+title: Home
+-
+tags: staceycms, staceyapp
+-
+smallcontent:For the meta-description of the website at the index-

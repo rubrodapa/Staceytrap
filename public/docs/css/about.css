@@ -1,0 +1,27 @@
+#about-info > h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+#about-info > p {
+  padding-bottom: 5px;
+}
+
+.icon-image{
+  padding-right: 10px;
+  height: 20px;
+}
+
+#about-me-description{
+  padding-top: 25px;
+  border-top: 1px solid;    
+}
+
+#about-me-description > p {
+	margin-bottom: 12px;
+}
+
+@media screen and (min-width: 0px){
+  #page-desc > #me-image{
+    text-align: center;
+  }
+}

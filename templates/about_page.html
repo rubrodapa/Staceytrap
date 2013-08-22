@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>@title, @name's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="@root_path/public/docs/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="@root_path/public/docs/css/main.css" rel="stylesheet" media="screen">
+    <link href="@root_path/public/docs/css/about.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    if @tags do
+    	<meta name="keywords" content="@tags">
+    endif
+    if @smallcontent do
+    	<meta name="description" content="@smallcontent"/>
+    endif
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="@root_path" class="navbar-brand">@name<br><span id="page_subtitle">@profession</span></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav pull-right">
+          :navigation
+        </ul>
+      </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4" id="page-desc">
+          :about-info
+        </div>
+        <div class="col-lg-7 col-lg-offset-1">
+          <div id="about-me-description">
+            @content
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+      	<div class="col-lg-12" id="footer">
+      		&copy; Copyright @name @current_year
+      	</div>
+      </div>
+    </div>
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="@root_path/public/docs/js/bootstrap.min.js"></script>
+
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    <script src="@root_path/public/docs/js/respond.js"></script>
+
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-43329861-1', 'rraparicio.com');
+	  ga('send', 'pageview');
+
+	</script>
+	
+  </body>
+</html>

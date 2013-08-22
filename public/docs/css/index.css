@@ -1,0 +1,48 @@
+.down-text{
+  color:#9a9a9a;
+  font-size: 12px;
+}
+
+.subtitle{
+  padding-left: 10px;
+}
+
+.description{
+  padding-top: 12px;
+}
+
+.tags{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.project-description{
+  padding-top: 12px;
+  border-top: 1px solid;    
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px){
+  #page-desc{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border: none;
+    font-weight: bold;    
+  }
+}
+
+@media screen and (min-width: 992px){
+  #page-desc{
+    text-align: right;
+    padding-top: 25px;    
+    border-top: 1px solid;
+    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 992px){
+  body{
+    text-align: left;
+  }
+}

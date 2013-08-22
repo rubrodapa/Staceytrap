@@ -1,0 +1,19 @@
+title: Only images
+-
+date: 2012, Nov– 2013 Jan
+-
+subtitle:Project with iamges
+-
+smallcontent:This is a example project with an image slideshow.
+-
+content: 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, justo id mollis luctus, urna ipsum ullamcorper enim, at dignissim mauris lorem in quam. Suspendisse eu leo ut est condimentum iaculis id id turpis. Donec ac tellus risus. Nullam mollis nibh quis imperdiet faucibus. Aenean ut justo imperdiet, tempor lorem id, ornare metus. Duis nec dictum nunc, non vulputate justo. Phasellus gravida fringilla orci id aliquam. Proin iaculis elementum scelerisque. Pellentesque ornare justo sit amet justo cursus, ac placerat elit dignissim. Donec tristique erat interdum justo condimentum placerat. Curabitur vel hendrerit leo. Donec posuere augue quis vehicula viverra. Integer volutpat vel lorem et vehicula.
+
+Maecenas convallis gravida sem et ultrices. Donec massa risus, lobortis vitae est et, mollis rhoncus ipsum. Phasellus id iaculis eros. Aenean vel lacinia odio. Curabitur at vulputate diam. Quisque tempus facilisis nisl ut feugiat. Maecenas elementum quis metus sit amet ullamcorper. Ut id nisl tincidunt, vestibulum urna non, pretium nulla. Duis volutpat orci ligula, sit amet gravida mauris imperdiet id. Integer malesuada purus quis dolor ullamcorper ultricies.
+-
+extrainfo:
+For more information:
+
+<a href="http://www.lipsum.com/">Lore ipsum</a>
+-
+tags:Lore ipsum
