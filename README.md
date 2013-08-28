@@ -29,6 +29,8 @@ It also has an about page, with possibility to add links to twitter, email and L
 
 The blog URL of the navigation has to be changed (or removed) from the partial "navigation.html".
 
+Add your code and domain to Google Analytics script in each page template, or remove the script.
+
 The code section is equal to the project, but the elements goes directly to an external webpage.
 
 Check the content to understand the complete work of the template.
